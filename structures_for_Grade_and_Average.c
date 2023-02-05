@@ -23,6 +23,7 @@ int main()
 	getMarks(&student5);
 	totalAverage = sumAverage/5.0;
 	printf("Total Average of class Marks is: %.2f\n", totalAverage);
+    getchar();
 	return 0;
 }
 void getMarks(struct marks *data)
